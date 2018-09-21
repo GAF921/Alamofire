@@ -10,8 +10,6 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: ''
-    sdk: 'iphoneos'
-    configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    xcodeVersion: 'default' # Options: 8, 9, default, specifyPath
+    scheme: 'Alamofire iOS'
+    xcWorkspacePath: 'Alamofire.xcworkspace'
+    xcodeVersion: '9' # Options: 8, 9, default, specifyPath
