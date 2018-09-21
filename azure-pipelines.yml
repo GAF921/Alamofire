@@ -11,5 +11,6 @@ steps:
   inputs:
     actions: 'build'
     scheme: 'Alamofire iOS'
+    sdk: ''
     xcWorkspacePath: 'Alamofire.xcworkspace'
     xcodeVersion: '9' # Options: 8, 9, default, specifyPath
